@@ -30,6 +30,7 @@ Comandos aprendidos en la primera clase sobre Docker de la Bootcamp de DevOps
     
 7. Volvemos a levantar el contenedor de la imagen  nueva y comprobamos en el navegador que nuestro index.html modificado se ha copiado.
     >    **docker build -t segundaimagen:latest .**
+    >    
     >    **docker run -p 8080:80 segundaimagen:latest**
         
       (*Podemos parar el contenedor con "docker stop <id>")
@@ -40,7 +41,7 @@ Comandos aprendidos en la primera clase sobre Docker de la Bootcamp de DevOps
    (*Para ver el estado del volumen usamos "**docker volume inspect mivolumen***")
     
 9. Levantamos el volumen en la imagen para compartirla (tenemos que pasar el contenedor antes, haciendo un stop):
-   > **run -v mivolumen:/opt/data -p8080:80 segundaimagen**
+   > **docker run -v mivolumen:/opt/data -p8080:80 segundaimagen**
     
     (*para inspeccionar los volúmenes que tiene la imagen "**docker inspect segundaimagen**")
     

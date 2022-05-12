@@ -45,6 +45,6 @@ Comandos aprendidos en la primera clase sobre Docker de la Bootcamp de DevOps
     (*para inspeccionar los volúmenes que tiene la imagen "**docker inspect segundaimagen**")
     
 10. Por último para abrir una terminal de comandos dentro del contanedor:
-   > **docker exect -it idcontainer bash**
+   > **docker exec -it idcontainer bash**
 
 

@@ -35,9 +35,9 @@ Comandos aprendidos en la primera clase sobre Docker de la Bootcamp de DevOps
       (*Podemos parar el contenedor con "docker stop <id>)
 
 8. Por último queremos crear un volumen, un archivo compartido con los contenedores que contendrá los archivos persistentes. Para ello creamos el volumen:
-    **docker create volume mivolumen**
+   > **docker create volume mivolumen**
     
-  >  (*Para ver el estado del volumen usamos "**docker volume inspect mivolumen***")
+   (*Para ver el estado del volumen usamos "**docker volume inspect mivolumen***")
     
 9. Levantamos el volumen en la imagen para compartirla (tenemos que pasar el contenedor antes, haciendo un stop):
    > **run -v mivolumen:/opt/data -p8080:80 segundaimagen**

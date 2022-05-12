@@ -12,7 +12,7 @@ Comandos aprendidos en la primera clase sobre Docker de la Bootcamp de DevOps
    > **FROM httpd:latest**
 
 4. Una vez la conexión establecida con la imagen, montamos nuestra imagen en local con la imagen descargada, creandole un tag ("imagen") con -t
-   > **docker build -t primeraimagen:latest . **
+   > **docker build -t primeraimagen:latest .**
     
     (Si queremos ver el listado del histórico de imágenes creadas y en ejecución usamos "**docker images**")
     

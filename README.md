@@ -43,7 +43,7 @@ Comandos aprendidos en la primera clase sobre Docker de la Bootcamp de DevOps
 9. Levantamos el volumen en la imagen para compartirla (tenemos que pasar el contenedor antes, haciendo un stop):
    > **docker run -v mivolumen:/opt/data -p8080:80 segundaimagen:latest**
     
-    (*para inspeccionar los volúmenes que tiene la imagen "**docker inspect segundaimagen**")
+    (*para inspeccionar los volúmenes que tiene el contenedor "**docker inspect idcontenedor**")
     
 10. Por último para abrir una terminal de comandos dentro del contenedor:
    > **docker exec -it idcontainer bash**

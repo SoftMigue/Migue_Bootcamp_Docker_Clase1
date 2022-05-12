@@ -33,7 +33,7 @@ Comandos aprendidos en la primera clase sobre Docker de la Bootcamp de DevOps
     >    
     >    **docker run -p 8080:80 segundaimagen:latest**
         
-      (*Podemos parar el contenedor con "docker stop idcontenedor")
+      (*Podemos parar el contenedor con "**docker stop idcontenedor**")
 
 8. Por último queremos crear un volumen, un archivo compartido con los contenedores que contendrá los archivos persistentes. Para ello creamos el volumen:
    > **docker volume create mivolumen**

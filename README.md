@@ -21,7 +21,7 @@ Comandos aprendidos en la primera clase sobre Docker de la Bootcamp de DevOps
     
     (*Si no utilizamos la opción -d para levantarlo en modo demonio, o segundo plano, deberemos abrir una nueva terminal para continuar)
     
-    (*Para ver el registro de contenedores levantados y su estado usamos "**docker ps -a**")
+    (*Para ver el registro de todos los contenedores y su estado usamos "**docker ps -a** y para los contenedores desplegados solamente "**docker ps**")
     
 6. En el navegador ponemos nuestra ip:8080 y nos abrirá el index.html
 

@@ -8,7 +8,7 @@ Comandos aprendidos en la primera clase sobre Docker de la Bootcamp de DevOps
     **cd .docker/**     
     **nano dockerfile**
     
-3. Dentro del dockerfile establecemos la conexión con la imagen descargada mediante FROM
+3. Dentro del dockerfile establecemos la conexión con la imagen descargada mediante 
     **FROM httpd:latest**
 
 4. Una vez la conexión establecida con la imagen, montamos nuestra imagen en local con la imagen descargada, creandole un tag ("imagen") con -t

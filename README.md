@@ -21,7 +21,7 @@ Comandos aprendidos en la primera clase sobre Docker de la Bootcamp de DevOps
     
     (*Si no utilizamos la opción -d para levantarlo en modo demonio, o segundo plano, deberemos abrir una nueva terminal para continuar)
     
-    (Para ver el registro de contenedores levantados y su estado usamos "**docker ps -a**")
+    (*Para ver el registro de contenedores levantados y su estado usamos "**docker ps -a**")
     
 6. En el navegador ponemos nuestra ip:8080 y nos abrirá el index.html
 
@@ -32,7 +32,7 @@ Comandos aprendidos en la primera clase sobre Docker de la Bootcamp de DevOps
     >    **docker build -t segundaimagen:latest .**
     >    **docker run -p 8080:80 segundaimagen:latest**
         
-      (*Podemos parar el contenedor con "docker stop <id>)
+      (*Podemos parar el contenedor con "docker stop <id>")
 
 8. Por último queremos crear un volumen, un archivo compartido con los contenedores que contendrá los archivos persistentes. Para ello creamos el volumen:
    > **docker create volume mivolumen**

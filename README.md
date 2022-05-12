@@ -1,5 +1,5 @@
 # Migue_DevOps_Docker_Clase1
-Comandos aprendidos en la primera clase sobre Docker de la Bootcamp de DevOps
+## Comandos aprendidos en la primera clase sobre Docker de la Bootcamp de DevOps
 
 1. Hacemos un pull (descargamos) la siguiente imagen de apache del repositorio de docker hub
    > **docker pull httpd:latest**
